@@ -1,0 +1,173 @@
+/*
+Estruturas e estilos iniciais
+*/
+
+body {
+  margin: 0;
+  background-color: white;
+  color: #83677b;
+  font-family: fantasy;
+}
+
+.navi {
+  background-color: #adadad;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navi h1 {
+  display: block;
+  float: left;
+  padding: 0.6em 1em 0.6em 1em;
+  margin: 0;
+  color: #501b1d;
+  font-family: "Brush Script MT";
+}
+
+.navi a {
+  text-decoration: none;
+  color: #501b1d;
+  padding: 0.2em 0 0 0;
+  display: block;
+  float: left;
+  margin: 1.6em;
+  transition: 0.36s;
+}
+
+.navi a:hover {
+  /*
+  text-decoration: underline;
+  text-decoration-color: #DF6C4F;
+  */
+  border-bottom: solid 1px #df6c4f;
+}
+
+.button {
+  background: none;
+  background-color: white;
+  border: 0.1em solid;
+  width: 3em;
+  height: 3em;
+  overflow: hidden;
+  padding: 0;
+  border-radius: 3em;
+  position: fixed;
+  display: block;
+  right: 0;
+  margin: 1.4em 1.4em 0 0;
+}
+
+.button img {
+  content: url(https://www.shutterstock.com/image-vector/sun-ocean-icon-vector-260nw-777360196.jpg);
+  width: 2.9em;
+  height: auto;
+  overflow: hidden;
+}
+
+.button:hover {
+  border-color: white;
+}
+
+.button:active {
+  opacity: 0.6;
+}
+
+.principal {
+  padding-left: 0.8em;
+  padding-top: 1.8em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.principal h2 {
+  padding-top: 4.2em;
+  margin-top: -4.2em;
+  color: #83677b;
+}
+
+#sobremim {
+  padding-top: 7.2em;
+}
+
+#oogway {
+  padding: 0.6em;
+  margin-bottom: 3.6em;
+}
+
+#lista2 {
+  margin-bottom: 4.2em;
+}
+
+.filmes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 1em;
+}
+
+.filmes div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 17em;
+
+  border: solid 0.16em #df6c4f;
+  border-radius: 0.5em;
+  margin: 0.5em;
+  padding: 0.3em;
+}
+
+.filmes div h3 {
+  height: 1.2em;
+}
+
+.filmes div p {
+  padding: 0.8em;
+}
+
+/*
+Tema escuro
+*/
+
+.dark_body {
+  background-color: #222629;
+  color: #6B6E70;
+}
+
+.dark_navi {
+  background-color: #61892F;
+}
+
+.dark_navi h1 {
+  color: white;
+}
+
+.dark_navi a {
+  color: white;
+}
+
+.dark_navi a:hover {
+  /*
+  text-decoration: underline;
+  text-decoration-color: #DF6C4F;
+  */
+  border-bottom: solid 1px;
+}
+
+.dark_button img {
+  content: url(https://static.vecteezy.com/system/resources/thumbnails/010/072/533/small/moon-and-stars-icon-free-vector.jpg);
+  width: 3.6em;
+  margin-left: -0.3em;
+  margin-top: -0.1em;
+}
+
+.dark_principal h2 {
+  color: #86C232;
+}
+
+.dark_filmes div {
+  border-color: #61892F;
+}
